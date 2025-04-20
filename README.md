@@ -32,7 +32,7 @@ Store data in MySQL using Spring Data JPA.
  
 Key Entities: 
 User: ID, username, password, role (ADMIN, HR, EMPLOYEE) 
-Employee: ID, name, department, email, phone, reporting manager	 
+Employee: ID, name, department, email, phone, reporting manager, joining date 
  
 APIs: 
 POST /auth/login – Login with JWT response 
